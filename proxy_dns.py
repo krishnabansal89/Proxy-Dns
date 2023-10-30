@@ -3,7 +3,7 @@ import socket
 import threading
 
 # Define the IP and port for your DNS proxy server
-proxy_host = '34.228.6.94'  # Listen on all available network interfaces
+proxy_host = '0.0.0.0'  # Listen on all available network interfaces
 proxy_port = 53
 
 # Define the DNS server you want to forward requests to
